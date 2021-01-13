@@ -1,0 +1,49 @@
+/*
+ * 3.c
+ *
+ *  Created on: Jan 13, 2021
+ *      Author: Tarek
+ */
+
+
+#include <stdio.h>
+
+int main ()
+
+{
+
+	float a,b,c;
+
+	printf("Enter Three Numbers = ");
+	fflush(stdout);
+	fflush(stdin);
+	scanf("%f %f %f",&a,&b,&c);
+
+	if (a>=b)
+	{
+		if (a>=c)
+
+			printf("%f is bigger",a);
+
+		else
+
+			printf("%f is bigger",c);
+
+	}
+	else
+	{
+		if (b>=c)
+
+			printf("%f is bigger",b);
+
+		else
+
+			printf("%f is bigger",c);
+
+	}
+return 0;
+
+}
+
+
+
