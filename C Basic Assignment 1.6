@@ -1,0 +1,34 @@
+/*
+/*
+/*
+ * 6.c
+ *
+ *  Created on: Jan 13, 2021
+ *      Author: Tarek
+ */
+
+#include <stdio.h>
+
+int main()
+{
+
+	float a;
+	float b;
+	float x;
+	printf ("Enter value of a :");
+	fflush (stdout);
+	fflush (stdin);
+	scanf ("%f",&a);
+	printf ("Enter value of b :");
+	fflush (stdout);
+	fflush (stdin);
+	scanf ("%f",&b);
+
+	x=a;
+	a=b;
+	b=x;
+
+	printf ("After swapping, value of a = %f \nAfter swapping, value of b = %f",a,b);
+	return 0;
+
+}
